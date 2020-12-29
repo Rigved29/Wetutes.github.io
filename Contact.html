@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact.WeTutes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href=''>
+    <script src='main.js'></script>
+    <style>
+        .navbar {
+            background-color: #318398;
+            height: 75px;
+            padding: 0;
+        }
+
+        a {
+            color: blue;
+        }
+
+        .custom-toggler.navbar-toggler {
+            border-color: rgba(255, 255, 255, 0.5);
+            margin-right: 20px;
+        }
+
+        .custom-toggler.navbar-toggler-icon {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .nav-item {
+            background-color: #318398;
+        }
+
+        .special {
+            padding-left: 20;
+        }
+
+        .card-body {}
+
+        /* *, *::before, *::after{
+    box-sizing: border-box;
+} */
+        .btn {
+            color: white;
+        }
+
+        .separator {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        .separator::before,
+        .separator::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .separator::before {
+            margin-right: .25em;
+        }
+
+        .separator::after {
+            margin-left: .25em;
+        }
+
+        .card-body {
+            padding: 1.25rem;
+        }
+
+        .container-fluid {
+            width: 100%;
+            padding-right: 30px;
+            padding-left: 30px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .margin {
+            margin-right: 0px;
+        }
+
+        .homepage_widgets {
+            min-height: 450px;
+        }
+
+        .shadow {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+
+        .border {
+            border: 1px solid #dee2e6;
+        }
+
+        .font {
+            -sizefont: 1.575rem;
+        }
+
+        .fonts {
+            font-family: "Roboto", sans-serif;
+            font-size: 0.9rem;
+        }
+
+        .re {
+            flex-basis: 0;
+            flex-grow: 1;
+            max-width: 100%
+        }
+
+        .pad {
+            padding: 0.75rem 1.25rem;
+        }
+
+        .testimonial_box {
+            background-color: #9e9e9e;
+            font-family: 'Roboto', Arial, sans-serif;
+            font-size: 16px;
+            position: relative;
+            text-align: center;
+            width: 100%;
+            min-height: 245px;
+            border: 1px solid #dee2e6;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        }
+
+        .bg-gray {
+            background-color: #e9ecef;
+        }
+
+        figure {
+            margin: 0 0 1rem;
+        }
+
+        .testimonial_box figcaption:before {
+            transform: translateX(-50%);
+            background-color: #fff;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+            color: #1484f7;
+            content: "\f10e";
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            font-size: 20px;
+            font-style: normal;
+            left: 50%;
+            line-height: 40px;
+            position: absolute;
+            top: -20px;
+            width: 40px
+        }
+
+        .sticky-footer {
+            bottom: 0;
+            height: 60px;
+            line-height: 30px;
+        }
+
+        .sticky-footer .sticky-links {
+            padding-top: 2em;
+            border-top: #ccc 0.1rem solid;
+            background: #222;
+            color: #ccc;
+        }
+
+        .col-4 {
+            text-align: start;
+        }
+
+        .coul {
+            color: #ccc;
+        }
+
+        .ali {
+            text-align: -webkit-match-parent;
+        }
+
+        .footer-copyright {
+            background-color: #333;
+            color: #999;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 9999;
+
+        }
+
+        .mar {
+            margin-top: 80px;
+        }
+    </style>
+
+</head>
+
+<body class="col-12">
+    <div class="row" style="background-color: #dfbf9f;">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+            <p>
+                <h2 class="d-flex justify-content-center" style="font-family:'Redressed', cursive;
+                ">Get In Touch</h2>
+            </p>
+            <form class=" px-2">
+                <input type="text" placeholder="Name" class="form-control mb-2" required>
+                <input type="text" placeholder="Mobile Number" class="form-control mb-2" required>
+                <input type="email" placeholder="Email" class="form-control mb-2" required>
+                <textarea row="10" cols="3" placeholder="Query" class="form-control mb-2" required></textarea>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <p>
+                <h2 class="d-flex justify-content-center" style="font-family:'Redressed', cursive;">
+                    Reach Us
+                </h2>
+            </p>
+            <div>
+                <p class="d-flex justify-content-center"> Street: 993 B, Hamilton Road, Kashmere Gate</p>
+
+                <p class="d-flex justify-content-center">City: Delhi </p>
+
+                <p class="d-flex justify-content-center">State/province/area: Delhi</p>
+
+                <p class="d-flex justify-content-center"> Phone number: 01123831783 </p>
+
+                <p class="d-flex justify-content-center"> Zip code: 110006 </p>
+
+                <p class="d-flex justify-content-center"> Country calling code: +91</p>
+
+                <p class="d-flex justify-content-center"> Country: India </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div style="background-color: #318398;" class="row">
+        <div class="d-flex justify-content-center col-12">
+            <h1 style="font-family:'Redressed', cursive;">
+                Follow Us
+            </h1>
+        </div>
+
+
+        <div class="d-flex justify-content-center mb-0 col-12">
+            <a href="https://www.facebook.com/weTutes"> <img
+                    src="https://img.icons8.com/color/48/000000/facebook-circled--v4.png" /> </a> </div>
+        <div class="d-flex justify-content-center mb-0 col-12">
+            <a href="https://www.instagram.com/wetutes"> <img
+                    src="https://img.icons8.com/color/48/000000/instagram-new.png" /> </a>
+        </div>
+    </div>
+    <div class="row">
+        <footer class="sticky-footer w-100">
+            <div class="sticky-links gray-links">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <h5>Wetutes</h5>
+                                </li>
+                                <li><a href="" class="coul">About us</a></li>
+
+                                <li><a href="" class="coul">Contact us</a></li>
+                                <li><a href="" class="coul">Register</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <h5>Tutors</h5>
+                                </li>
+                                <li><a href="" class="coul">Ashish Chaturvedi</a></li>
+                                <li><a href="" class="coul">Ayushman Shukla</a></li>
+                                <li><a href="" class="coul">Ankit Bisen</a></li>
+                                <li><a href="" class="coul">Ashutosh Jain</a></li>
+
+                            </ul>
+
+                        </div>
+                        <div class="col-4">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <h5>Social Media Pages</h5>
+                                </li>
+                                <li><a href="https://www.facebook.com/weTutes" class="coul">Facebook</a></li>
+                                <li><a href="https://www.instagram.com/wetutes/" class="coul">Instagram</a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="row py-2 mx-0 w-100 footer-copyright gray-links  ">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-10 text-md-left text-center">
+                            © 2005-2020, WeTutes Project |<span class="coul">Made By</span></span> <span><a
+                                    href="https://in.linkedin.com/in/rigved-shrivastava-7055671a5?challengeId=AQFhNdDqFqO6DgAAAXavx_k4GO5sI5Pns2BXTPy663Dn2a_xcvIMU6T"
+                                    class="coul">Rigved Shrivastava</a></span><span><a
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSe5AnvIbYk4AE_40d_QKshyzdCJvglEz3cmwNg0EdRZuyDgHA/viewform?usp=sf_link"
+                                    class="coul"></a></span>
+                        </div>
+                        <div class="col-md-2 text-md-right text-center">
+                            <ul class="list-unstyled m-0">
+                                <li>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
